@@ -1,12 +1,14 @@
 # git-xlsx-textconv - git text converter for xlsx file
 
-git diff wrapper for xlsx file.
+git diff wrapper for xlsx files that include formulas.  
+
+xlsm files may be diffed, but VBA will not be visible.  For versioning of VBA I like to manually import/export with [VBA Sync](https://github.com/chelh/VBASync).
 
 <img src="http://t.co/5Epi6NXHZ5">
 
 # install
 
-    $ go get github.com/tokuhirom/git-xlsx-textconv
+    $ go get github.com/bbrandt/git-xlsx-textconv
     
 # .gitconfig
 
